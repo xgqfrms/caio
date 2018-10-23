@@ -1,24 +1,18 @@
-# GB-canvas-turntable
-----
+# Canvas Turntable
 
-## 简介
+> 适用于移动端的 Canvas 绘制可配置的转盘抽奖
 
-适用于移动端的Canvas绘制可配置的转盘抽奖
-  
+## Browser
 
-## 使用
-
-### Browser
-	
 ```html
-	<link rel="stylesheet" href="css/GB-canvas-turntable.css">
-	<script src="js/GB-canvas-turntable.js"></script>
+    <link rel="stylesheet" href="css/GB-canvas-turntable.css">
+    <script src="js/GB-canvas-turntable.js"></script>
 ```
 
 ### 普通
 
 ```js
-	gbTurntable.init({
+    gbTurntable.init({
         id: 'turntable',
         config: function(callback){
             // 获取奖品信息
@@ -52,20 +46,8 @@
     });
 ```
 
+## refs
 
-
-
-
-
-
-## 感谢他们
-
-演示网页排版来自： [https://github.com/sofish/typo.css](https://github.com/sofish/typo.css)       
-
-
-
-## License
-
-[MIT](./LICENSE) © 2016 [givebest](https://github.com/givebest)
+https://github.com/sofish/typo.css
 
  

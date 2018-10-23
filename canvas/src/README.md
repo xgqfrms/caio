@@ -1,1 +1,1 @@
-# node.js-all-in-one
+# canvas game

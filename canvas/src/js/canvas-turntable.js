@@ -1,10 +1,17 @@
+"use strict";
+
 /**
- * GB-canvas-turntable.js
- * @class gbTurntable
- * @see https://github.com/givebest/GB-canvas-turntable
- * @author givenlovs@msn.com
- * @(c) 2016
- **/
+ *
+ * @author xgqfrms
+ * @license MIT
+ * @copyright xgqfrms
+ *
+ * @description canvas-turntable.js
+ * @augments
+ * @example
+ *
+ */
+
 
 
 (function () {
