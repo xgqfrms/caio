@@ -1,0 +1,22 @@
+@charset "UTf-8";
+
+/* app.css */
+
+/* :root {
+   --cololr: ;
+   --default-cololr: ;
+   --new-cololr: ;
+} */
+
+table{
+    border-collapse: collapse;
+    background: #678;
+    opacity: 0.7;
+    color: #fff;
+    width: calc(80vw);
+    margin: 50px auto;
+}
+
+th, td{
+    border: 1px solid #ccc;
+}
