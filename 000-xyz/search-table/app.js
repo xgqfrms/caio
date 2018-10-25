@@ -74,5 +74,19 @@ input.addEventListener(`input`, (e) => {
 });
 
 btn.addEventListener(`click`, () => {
-    console.log(`window.SEARCH_VALUE = `, window.SEARCH_VALUE);
+    let value = window.SEARCH_VALUE
+    console.log(`window.SEARCH_VALUE = `, value);
+    // filter datas
+    const arr = ["uid-x1", "uid-x2", "uid-x3"];
+    let new_arr = arr.filter(
+        (item, i) => {
+            if (item.startsWith(value)) {
+            // if (item.includes(value)) {
+                return item;
+            } else {
+                // do nothing
+            }
+        }
+    );
+    console.log(`new arr =`, new_arr);
 });
