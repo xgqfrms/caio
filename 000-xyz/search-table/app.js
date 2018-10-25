@@ -52,18 +52,25 @@ window.SEARCH_VALUE = ``;
 //     console.log(`input value = `, value);
 // });
 
-input.addEventListener(`keydown`, (e) => {
-    // this === e.target
-    let value = e.target.value;
-    window.SEARCH_VALUE = value;
-    console.log(`keydown & input value = `, value);
-});
+// input.addEventListener(`keydown`, (e) => {
+//     // this === e.target
+//     let value = e.target.value;
+//     window.SEARCH_VALUE = value;
+//     console.log(`keydown & input value = `, value);
+// });
 
-input.addEventListener(`keypress`, (e) => {
+// input.addEventListener(`keypress`, (e) => {
+//     // this === e.target
+//     let value = e.target.value;
+//     window.SEARCH_VALUE = value;
+//     console.log(`keypress & input value = `, value);
+// });
+
+input.addEventListener(`input`, (e) => {
     // this === e.target
     let value = e.target.value;
     window.SEARCH_VALUE = value;
-    console.log(`keypress & input value = `, value);
+    console.log(`input & input value = `, value);
 });
 
 btn.addEventListener(`click`, () => {
